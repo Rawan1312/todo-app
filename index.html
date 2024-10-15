@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <div class="header">
+          <h2>ToDo List</h2>
+          <input type="text" id="search-input" placeholder="Search tasks" />
+        </div>
+        <div class="row">
+          <input type="text" id="task-input" placeholder="Add your task" />
+          <button type="submit" id="add-id">Add</button>
+        </div>
+        <ul id="task-list"></ul>
+        <p>Total Tasks: <span id="total-tasks">0</span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
